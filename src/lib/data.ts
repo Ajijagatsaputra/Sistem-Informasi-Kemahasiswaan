@@ -128,43 +128,43 @@ export const teachersData = [
 export const studentsData = [
   {
     id: 1,
-    studentId: "1234567890",
-    name: "John Doe",
-    email: "john@doe.com",
+    nimId: "21090046",
+    name: "Nur Sholih",
+    email: "sobri@cbmotor.com",
     photo:
       "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
-    class: "1B",
-    address: "123 Main St, Anytown, USA",
+    class: "7A",
+    address: "Brebes",
   },
   {
     id: 2,
-    studentId: "1234567890",
-    name: "Jane Doe",
-    email: "jane@doe.com",
+    nimId: "21090023",
+    name: "Syarif Hidayat",
+    email: "hidayatcollection@gmail.com",
     photo:
       "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
-    address: "123 Main St, Anytown, USA",
+    class: "7B",
+    address: "Tembok Kidul, Kec. Adiwerna, Kab. Tegal",
   },
   {
     id: 3,
-    studentId: "1234567890",
-    name: "Mike Geller",
-    email: "mike@geller.com",
+    nimId: "21090056",
+    name: "Akhadiati Khaerul Syuhada",
+    email: "ecececu@gmail.com",
     photo:
       "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",
-    address: "123 Main St, Anytown, USA",
+    address: "Margadana, Kota Tegal",
   },
   {
     id: 4,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Jay French",
     email: "jay@gmail.com",
     photo:
@@ -176,7 +176,7 @@ export const studentsData = [
   },
   {
     id: 5,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Jane Smith",
     email: "jane@gmail.com",
     photo:
@@ -188,7 +188,7 @@ export const studentsData = [
   },
   {
     id: 6,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Anna Santiago",
     email: "anna@gmail.com",
     photo:
@@ -200,7 +200,7 @@ export const studentsData = [
   },
   {
     id: 7,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Allen Black",
     email: "allen@black.com",
     photo:
@@ -212,7 +212,7 @@ export const studentsData = [
   },
   {
     id: 8,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Ophelia Castro",
     email: "ophelia@castro.com",
     photo:
@@ -224,7 +224,7 @@ export const studentsData = [
   },
   {
     id: 9,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "Derek Briggs",
     email: "derek@briggs.com",
     photo:
@@ -236,7 +236,7 @@ export const studentsData = [
   },
   {
     id: 10,
-    studentId: "1234567890",
+    nimId: "1234567890",
     name: "John Glover",
     email: "john@glover.com",
     photo:
