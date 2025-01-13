@@ -334,53 +334,53 @@ export const parentsData = [
 export const subjectsData = [
   {
     id: 1,
-    name: "Math",
-    teachers: ["Alice Phelps", "Russell Davidson"],
+    name: "Pemrograman Web",
+    teachers: ["Sharfina", "Mirza Alim"],
   },
   {
     id: 2,
     name: "English",
-    teachers: ["Manuel Becker", "Eddie Chavez"],
+    teachers: ["Sofyan"],
   },
   {
     id: 3,
-    name: "Physics",
-    teachers: ["Lola Newman", "Darrell Delgado"],
+    name: "Machine Learning",
+    teachers: ["Fikri Hidayatullah"],
   },
   {
     id: 4,
-    name: "Chemistry",
-    teachers: ["Nathan Kelly", "Benjamin Snyder"],
+    name: "Mobile Development",
+    teachers: ["Arif Hidayah", "Rosid"],
   },
   {
     id: 5,
-    name: "Biology",
-    teachers: ["Alma Benson", "Lina Collier"],
+    name: "Datawarehouse",
+    teachers: ["Tamami"],
   },
   {
     id: 6,
-    name: "History",
-    teachers: ["Hannah Bowman", "Betty Obrien"],
+    name: "Jaringan Komputer",
+    teachers: ["Dega Surono", "Hendrawan"],
   },
   {
     id: 7,
-    name: "Geography",
-    teachers: ["Lora French", "Sue Brady"],
+    name: "Sistem Basis Data",
+    teachers: ["Taufiq Abidin", "Miftah"],
   },
   {
     id: 8,
-    name: "Art",
-    teachers: ["Harriet Alvarado", "Mayme Keller"],
+    name: "Game Development",
+    teachers: ["Syahrul", "Adi"],
   },
   {
     id: 9,
-    name: "Music",
-    teachers: ["Gertrude Roy", "Rosa Singleton"],
+    name: "Algoritma Struktur Data",
+    teachers: ["Ari Herijanto", "Irfan Triandi"],
   },
   {
     id: 10,
-    name: "Literature",
-    teachers: ["Effie Lynch", "Brett Flowers"],
+    name: "Pemrograman Cerdas",
+    teachers: ["Intan Dwi Afidah"],
   },
 ];
 
@@ -388,72 +388,72 @@ export const classesData = [
   {
     id: 1,
     name: "1A",
-    capacity: 20,
+    jumlahMahasiswa: 20,
     grade: 1,
-    supervisor: "Joseph Padilla",
+    waliKelas: "Joseph Padilla",
   },
   {
     id: 2,
     name: "2B",
-    capacity: 22,
+    jumlahMahasiswa: 22,
     grade: 2,
-    supervisor: "Blake Joseph",
+    waliKelas: "Blake Joseph",
   },
   {
     id: 3,
     name: "3C",
-    capacity: 20,
+    jumlahMahasiswa: 20,
     grade: 3,
-    supervisor: "Tom Bennett",
+    waliKelas: "Tom Bennett",
   },
   {
     id: 4,
     name: "4B",
-    capacity: 18,
+    jumlahMahasiswa: 18,
     grade: 4,
-    supervisor: "Aaron Collins",
+    waliKelas: "Aaron Collins",
   },
   {
     id: 5,
     name: "5A",
-    capacity: 16,
+    jumlahMahasiswa: 16,
     grade: 5,
-    supervisor: "Iva Frank",
+    waliKelas: "Iva Frank",
   },
   {
     id: 5,
     name: "5B",
-    capacity: 20,
+    jumlahMahasiswa: 20,
     grade: 5,
-    supervisor: "Leila Santos",
+    waliKelas: "Leila Santos",
   },
   {
     id: 7,
     name: "7A",
-    capacity: 18,
+    jumlahMahasiswa: 18,
     grade: 7,
-    supervisor: "Carrie Walton",
+    waliKelas: "Carrie Walton",
   },
   {
     id: 8,
     name: "6B",
-    capacity: 22,
+    jumlahMahasiswa: 22,
     grade: 6,
-    supervisor: "Christopher Butler",
+    waliKelas: "Christopher Butler",
   },
   {
     id: 9,
     name: "6C",
-    capacity: 18,
+    jumlahMahasiswa: 18,
     grade: 6,
-    supervisor: "Marc Miller",
+    waliKelas: "Marc Miller",
   },
   {
     id: 10,
     name: "6D",
-    capacity: 20,
+    jumlahMahasiswa: 20,
     grade: 6,
-    supervisor: "Ophelia Marsh",
+    waliKelas: "Ophelia Marsh",
   },
 ];
 
@@ -915,7 +915,6 @@ export const announcementsData = [
   },
 ];
 
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
@@ -955,31 +954,6 @@ export const calendarEvents = [
     end: new Date(2024, 7, 12, 14, 45),
   },
   {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
-  },
-
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
-  },
-  {
     title: "Math",
     allDay: false,
     start: new Date(2024, 7, 14, 8, 0),
@@ -991,7 +965,6 @@ export const calendarEvents = [
     start: new Date(2024, 7, 14, 10, 0),
     end: new Date(2024, 7, 14, 10, 45),
   },
-
   {
     title: "Chemistry",
     allDay: false,
@@ -1002,62 +975,6 @@ export const calendarEvents = [
     title: "History",
     allDay: false,
     start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
-  },
-
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
-  },
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
-  },
-
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    end: new Date(2024, 7, 14, 14, 45),
   },
 ];
