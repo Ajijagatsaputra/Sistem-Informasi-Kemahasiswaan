@@ -5,7 +5,7 @@ const Annaouncements = () => {
         <h1 className="text-xl font-semibold">Announcements</h1>
         <span className="text-xs text-gray-400">View All</span>
       </div>
-      <div className="flex flex-col gap-4 mt-4">
+      <div className="flex flex-col gap-6 mt-4">
         <div className="bg-lamaSkyLight rounded-md p-4">
           <div className="flex items-center justify-between">
             <h2 className="font-medium">Kegiatan UTS Semester Ganjil</h2>

@@ -102,36 +102,36 @@ const StudentForm = ({
           error={errors.phone}
         />
         <InputField
-          label="Address"
+          label="Alamat"
           name="address"
           defaultValue={data?.address}
           register={register}
           error={errors.address}
         />
         <InputField
-          label="Blood Type"
-          name="bloodType"
+          label="Golongan Darah"
+          name="golonganDarah"
           defaultValue={data?.bloodType}
           register={register}
           error={errors.bloodType}
         />
         <InputField
-          label="Birthday"
-          name="birthday"
+          label="Tanggal Lahir"
+          name="tanggalLahir"
           defaultValue={data?.birthday}
           register={register}
           error={errors.birthday}
           type="date"
         />
         <div className="flex flex-col gap-2 w-full md:w-1/4">
-          <label className="text-xs text-gray-500">Sex</label>
+          <label className="text-xs text-gray-500">Jenis Kelamin</label>
           <select
             className="ring-[1.5px] ring-gray-300 p-2 rounded-md text-sm w-full"
             {...register("sex")}
             defaultValue={data?.sex}
           >
-            <option value="male">Male</option>
-            <option value="female">Female</option>
+            <option value="male">Laki-laki</option>
+            <option value="female">Perempuan</option>
           </select>
           {errors.sex?.message && (
             <p className="text-xs text-red-400">

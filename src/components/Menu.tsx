@@ -90,6 +90,12 @@ const menuItems = [
         href: "/list/announcements",
         visible: ["admin", "teacher", "student", "parent"],
       },
+      {
+        icon: "/bimbingan.png",
+        label: "Guidance",
+        href: "/list/guidance",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
     ],
   },
   {
