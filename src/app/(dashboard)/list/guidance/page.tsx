@@ -12,6 +12,11 @@ const students = [
   { id: "00007", name: "Maggie Sullivan", absensi: 0, semester: "Semester 3", kelas: "C", ips: 3.56, status: "Sudah" },
   { id: "00008", name: "Rosie Todd", absensi: 19, semester: "Semester 3", kelas: "A", ips: 3.56, status: "Sudah" },
   { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 3", kelas: "B", ips: 3.56, status: "Sudah" },
+  { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 5", kelas: "B", ips: 3.56, status: "Sudah" },
+  { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 5", kelas: "D", ips: 3.56, status: "Belum" },
+  { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 7", kelas: "A", ips: 3.56, status: "Belum" },
+  { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 7", kelas: "C", ips: 3.56, status: "Sudah" },
+  { id: "00009", name: "Dollie Hines", absensi: 0, semester: "Semester 7", kelas: "A", ips: 3.56, status: "Belum" },
 ];
 
 const Guidance = () => {
@@ -28,7 +33,7 @@ const Guidance = () => {
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Dosen</h1>
+      <h1 className="text-2xl font-bold mb-4">Bimbingan Dosen</h1>
       <div className="bg-white p-6 rounded-md shadow-md">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold">Perwalian Mahasiswa</h2>
@@ -45,6 +50,8 @@ const Guidance = () => {
             <option value="">Semester</option>
             <option value="Semester 1">Semester 1</option>
             <option value="Semester 3">Semester 3</option>
+            <option value="Semester 3">Semester 5</option>
+            <option value="Semester 3">Semester 7</option>
           </select>
           <select
             className="p-2 border rounded-md"
