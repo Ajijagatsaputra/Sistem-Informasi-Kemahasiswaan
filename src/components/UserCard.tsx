@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const UserCard = ({ type, onClick }: { type: string; onClick: () => void }) => {

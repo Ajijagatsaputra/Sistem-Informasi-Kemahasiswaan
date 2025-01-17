@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import FormModal from "@/components/FormModal";
 
 const StudentGuidanceTable = () => {
   const [activeTab, setActiveTab] = useState("Bimbingan pra uts");
@@ -206,9 +205,6 @@ const StudentGuidanceTable = () => {
           <button className="px-3 py-1 border rounded hover:bg-gray-100">{">"}</button>
         </div>
       </div>
-
-      {/* Modal */}
-      {isModalOpen && <FormModal onClose={handleModalToggle} />}
     </div>
   );
 };

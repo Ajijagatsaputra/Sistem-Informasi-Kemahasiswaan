@@ -1,3 +1,5 @@
+"use client";
+
 import AttandanceChart from "@/components/AttandanceChart";
 import CountChart from "@/components/CountChart";
 import UserCard from "@/components/UserCard";
@@ -12,10 +14,10 @@ const AdminPage = () => {
       <div className="w-full lg:w-2/3 flex flex-col gap-8">
         {/* USER CARD */}
         <div className="flex gap-4 justify-between flex-wrap">
-          <UserCard type="Student" />
-          <UserCard type="Teacher" />
-          <UserCard type="Parent" />
-          <UserCard type="Staff" />
+          <UserCard type="Student" onClick={() => {}}/>
+          <UserCard type="Teacher" onClick={() => {}}/>
+          <UserCard type="Parent" onClick={() => {}}/>
+          <UserCard type="Staff" onClick={() => {}}/>
         </div>
         {/* MIDDLE CHART */}
         <div className="flex gap-4 flex-col lg:flex-row">
