@@ -11,16 +11,16 @@ const GuidancePage = () => {
   const handleCardClick = (type: string) => {
     let path = "/"; // Default path
     switch (type) {
-      case "Mahasiswa":
-        path = "/mahasiswa";
+      case "Dosen A":
+        path = "/list/dosenPerwalian";
         break;
-      case "Dosen":
-        path = "/dosen";
+      case "Dosen B":
+        path = "/list/dosenPerwalian";
         break;
-      case "Parent":
-        path = "/parent";
+      case "Dosen C":
+        path = "/list/dosenPerwalian";
         break;
-      case "Admin":
+      case "Dosen D":
         path = "/list/dosenPerwalian"; // Path khusus Admin
         break;
       default:
@@ -36,12 +36,12 @@ const GuidancePage = () => {
         {/* USER CARD */}
         <div className="flex gap-4 justify-between flex-wrap">
           <UserCard
-            type="Mahasiswa"
-            onClick={() => handleCardClick("Mahasiswa")}
+            type="Dosen A"
+            onClick={() => handleCardClick("Dosen A")}
           />
-          <UserCard type="Dosen" onClick={() => handleCardClick("Dosen")} />
-          <UserCard type="Parent" onClick={() => handleCardClick("Parent")} />
-          <UserCard type="Admin" onClick={() => handleCardClick("Admin")} />
+          <UserCard type="Dosen B" onClick={() => handleCardClick("Dosen B")} />
+          <UserCard type="Dosen C" onClick={() => handleCardClick("Dosen C")} />
+          <UserCard type="Dosen D" onClick={() => handleCardClick("Dosen D")} />
         </div>
         {/* MIDDLE CHART */}
         <div className="flex gap-4 flex-col lg:flex-row">

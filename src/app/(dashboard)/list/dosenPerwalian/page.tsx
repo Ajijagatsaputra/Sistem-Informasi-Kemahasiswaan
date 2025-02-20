@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { role } from "@/lib/data";
+import FormModal from "@/components/ModalBimbingan";
 
 const StudentGuidanceTable = () => {
   const [activeTab, setActiveTab] = useState("Bimbingan pra uts");
@@ -98,10 +100,32 @@ const StudentGuidanceTable = () => {
           Bimbingan pra uas
         </button>
         <button
+          onClick={() => handleTabClick("Bimbingan KRS")}
+          className={`py-2 px-4 font-semibold rounded ${
+            activeTab === "Bimbingan KRS"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-600"
+          }`}
+        >
+          Bimbingan pengisian KRS
+        </button>
+        <button
+          onClick={() => handleTabClick("Bimbingan pra sidang")}
+          className={`py-2 px-4 font-semibold rounded ${
+            activeTab === "Bimbingan pra sidang"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-600"
+          }`}
+        >
+          Bimbingan pra sidang
+        </button>
+        <button
           className="py-2 px-4 text-white bg-green-500 hover:bg-green-600 rounded font-semibold ml-auto"
           onClick={handleModalToggle}
         >
-          + Perwalian
+            {role === "admin" && (
+              <FormModal table="student" type="create"/>
+            )}  
         </button>
       </div>
 
