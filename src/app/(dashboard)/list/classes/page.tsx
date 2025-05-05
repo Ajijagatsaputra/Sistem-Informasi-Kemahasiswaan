@@ -11,6 +11,7 @@ type Class = {
   jumlahMahasiswa: number;
   grade: number;
   waliKelas: string[];
+  tahunAjaran: string;
 };
 
 const columns = [
@@ -24,13 +25,18 @@ const columns = [
     className: "hidden md:table-cell",
   },
   {
-    header: "Grade",
+    header: "Rata-Rata Nilai",
     accessor: "grade",
     className: "hidden md:table-cell",
   },
   {
     header: "   Wali Kelas",
     accessor: "waliKelas",
+    className: "hidden md:table-cell",
+  },
+  {
+    header: "Tahun Ajaran",
+    accessor: "tahunAjaran",
     className: "hidden md:table-cell",
   },
   {
@@ -52,6 +58,7 @@ const ClassListPage = () => {
         <td className="hidden md:table-cell">{item.jumlahMahasiswa}</td>
         <td className="hidden md:table-cell">{item.grade}</td>
         <td className="hidden md:table-cell">{item.waliKelas}</td>
+        <td className="hidden md:table-cell">{item.tahunAjaran}</td>
         <td>
           <div className="flex items-center gap-2">
             <Link href={`/list/teachers/${item.id}`}>
