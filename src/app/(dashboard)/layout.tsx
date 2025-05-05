@@ -13,8 +13,8 @@ export default function DashboardLayout({
       {/* LEFT */}
       <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%]  p-4">
         <Link href="/" className="flex items-center justify-center lg:justify-start gap-2">
-          <Image src="/logo_phb.png" alt="logo" width={100} height={100} />
-          <span className="hidden lg:block font-bold">SiKeMa TI</span>
+          <Image src="/logo_phb.png" alt="logo" width={150} height={150} />
+          <span className="hidden lg:block font-bold">SIKEMA</span>
         </Link>
         <Menu />
       </div>

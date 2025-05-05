@@ -14,19 +14,19 @@ const menuItems = [
       },
       {
         icon: "/teacher.png",
-        label: "Teachers",
+        label: "Data Dosen",
         href: "/list/teachers",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/student.png",
-        label: "Students",
+        label: "Data Mahasiswa",
         href: "/list/students",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/parent.png",
-        label: "Parents",
+        label: "Data Orang Tua",
         href: "/list/parents",
         visible: ["admin", "teacher"],
       },
@@ -44,7 +44,7 @@ const menuItems = [
       },
       {
         icon: "/class.png",
-        label: "Classes",
+        label: "Data Kelas",
         href: "/list/classes",
         visible: ["admin", "teacher"],
       },

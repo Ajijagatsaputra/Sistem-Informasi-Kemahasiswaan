@@ -1,6 +1,10 @@
+import Login from "./login/page"
+
 const Homepage = () => {
   return (
-    <div className=''>Homepage</div>
+    <div>
+      <Login/>
+    </div>
   )
 }
 
